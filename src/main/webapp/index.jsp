@@ -1,4 +1,4 @@
 <html>
 <body>
-<h2><%= "I m sneha " %></h2>
+<h2>"I m sneha "</h2>
 </html>
