@@ -10,8 +10,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @ComponentScan(basePackages = "com.oracle")
 @EnableWebMvc
 public class WebAppConfig implements WebMvcConfigurer {
-	@Override
+	
 	public void configureViewResolvers(ViewResolverRegistry registry) {
 		registry.jsp("/WEB-INF/views/", ".jsp");
 	}
-}r
+}
